@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    @apply font-['Epilogue'] bg-[#fafafa]
+}
+.hover-menu:hover{
+    @apply text-[#141414] cursor-pointer 
+}
+.snap-header-desktop{
+    @apply flex
+   }
+   .snap-hero-desktop{
+    @apply flex
+   }
+ #mob-body{
+    @apply hidden
+ }
+@media only screen and (max-width: 991px) {
+    .snap-header-desktop{
+    @apply hidden
+   }
+   .snap-hero-desktop{
+    @apply hidden
+   }
+   #mob-body{
+    @apply block
+ }
+   .mob-body{
+    @apply bg-[#0d172a66] h-screen brightness-50
+   }
+  }
