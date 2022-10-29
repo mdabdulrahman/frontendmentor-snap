@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="output.css">
     <script src="index.js" defer></script>
 </head>
-<body class="">
+<body >
+  <main>
   <!-- Header and menu -->
   <div class="snap-header-desktop mx-6 my-6  ">
     <header>
@@ -20,19 +21,19 @@
   <div class="flex   w-full justify-between">     
 <div class="text-lg text-[#696969] flex  ">
   <div id="featuresDrop" >
-  <h1 class="py-1 px-6 flex gap-2 items-center hover-menu">Features <img class="w-full h-2 " id="ficon" src='icon-arrow-down.svg'></h1>
+  <h1 class="py-1 px-6 flex gap-2 items-center hover-menu">Features <img class="w-full h-2 " id="ficon" alt="down-arrow" src='icon-arrow-down.svg'></h1>
     <ul id="fmenu" class="absolute mt-3 rounded-2xl  shadow-2xl -translate-x-12 hidden bg-white">
       <li class="hover-menu flex  items-center gap-3 pb-1 pt-5 px-6">
-        <img class="w-4 h-4" src="icon-todo.svg">
+        <img class="w-4 h-4" alt="todo" src="icon-todo.svg">
         Todo List</li>
       <li class="hover-menu flex items-center gap-3 py-1 px-6">
-        <img class="w-4 h-4" src="icon-calendar.svg">
+        <img class="w-4 h-4" alt="calendar" src="icon-calendar.svg">
         Calendar</li>
       <li class="hover-menu flex items-center gap-3 py-1 px-6">
-        <img class="w-4 h-4" src="icon-reminders.svg">
+        <img class="w-4 h-4" alt="reminders" src="icon-reminders.svg">
         Reminders</li>
       <li class="hover-menu flex items-center gap-3 pt-1 pb-5 px-6">
-        <img class="w-4 h-4" src="icon-planning.svg">
+        <img class="w-4 h-4" alt="planning" src="icon-planning.svg">
         Planning</li>
     </ul>
     </div>
@@ -72,15 +73,15 @@
 <button class="bg-[#141414] my-6 text-lg py-3 rounded-xl px-6 hover:bg-[#fafafa] hover:border-[#141414] transition-colors duration-200 border-[#fafafa] border-2 hover:text-[#141414] text-[#fafafa]">Learn more</button>
 <!-- svgs -->
 <div class="flex gap-11  mt-20 mb-12">
-  <img class=" h-full" src="client-databiz.svg">
-  <img class=" h-full"  src="client-audiophile.svg">
-  <img class=" h-full"  src="client-meet.svg">
-  <img class=" h-full"  src="client-maker.svg">
+  <img class=" h-full" alt="databiz" src="client-databiz.svg">
+  <img class=" h-full" alt="audiophile" src="client-audiophile.svg">
+  <img class=" h-full" alt="meet" src="client-meet.svg">
+  <img class=" h-full" alt="maker"  src="client-maker.svg">
 </div>
 </div>
 </div>
 <div class="w-[40%] ">
-<img src="hero-desk.png" class="h-[80%]">
+<img src="hero-desk.png" alt="hero" class="h-[80%]">
 </div>
   </div>  
 
@@ -88,22 +89,22 @@
 <!-- header and menu -->
 <!-- menu -->
 <div id="menu-mob" class="h-screen hidden w-4/6 overflow-scroll  z-10  translate-x-[55%] border-3 border-white float-right fixed bg-[#fafafa] ">
-<img class="float-right mr-10 mt-6" id="menubar" src="icon-close-menu.svg">
+<img class="float-right mr-10 mt-6" id="menubar" alt="close-menu" src="icon-close-menu.svg">
 <div class="mt-16 ml-5 text-lg text-[#696969]">
   <div id="featuresDrop" class="py-4"  >
-    <h1 class="py-1 px-6 flex gap-3 items-center hover-menu">Features <img class=" h-2 " id="ficon" src='icon-arrow-down.svg'></h1>
+    <h1 class="py-1 px-6 flex gap-3 items-center hover-menu">Features <img class=" h-2 " id="ficon" alt="down-arrow" src='icon-arrow-down.svg'></h1>
       <ul id="fmenu" class=" mt-1 pl-6 hidden">
         <li class="hover-menu flex  items-center gap-3 pb-1 pt-3 px-6">
-          <img class="w-4 h-4" src="icon-todo.svg">
+          <img class="w-4 h-4" alt="todo" src="icon-todo.svg">
           Todo List</li>
         <li class="hover-menu flex items-center gap-3 py-2 px-6">
-          <img class="w-4 h-4" src="icon-calendar.svg">
+          <img class="w-4 h-4" alt="calendar" src="icon-calendar.svg">
           Calendar</li>
         <li class="hover-menu flex items-center gap-3 py-2 px-6">
-          <img class="w-4 h-4" src="icon-reminders.svg">
+          <img class="w-4 h-4" alt="reminders" src="icon-reminders.svg">
           Reminders</li>
         <li class="hover-menu flex items-center gap-3 pt-2 pb-5 px-6">
-          <img class="w-4 h-4" src="icon-planning.svg">
+          <img class="w-4 h-4" alt="planning" src="icon-planning.svg">
           Planning</li>
       </ul>
       </div>
@@ -125,7 +126,7 @@
       <h1 class="py-4 px-6 hover-menu">Careers</h1>
       <h1 class="py-4 px-6 hover-menu">About</h1>
 </div>
-<div class="text-xl text-[#696969] w-11/12 mx-auto text-center my-3">
+<div class="text-lg text-[#696969] w-11/12 mx-auto text-center my-3">
   <h1 class="py-2 my-3 px-3 hover-menu">Login </h1>
   <button class="py-2 px-16 hover-menu border-[#696969] border-2 text-center rounded-xl">Register</button>
 </div>
@@ -136,14 +137,14 @@
   <header class="text-[#141414] font-bold text-4xl">snap</header>
   <div id="menubar" class="cursor-pointer">
 
-  <img class="w-9   h-6" src="icon-menu.svg">
+  <img class="w-9   h-6"  alt="menu-bar" src="icon-menu.svg">
  
   </div>
 </div>
 <!-- hero section -->
 <div class="mt-6">
   <div>
-    <img class="w-11/12 mx-auto" src="image-hero-mobile.png">
+    <img class="w-11/12 mx-auto" alt="hero-mobile" src="image-hero-mobile.png">
   </div>
   <div class="w-11/12 mx-auto mt-8 text-center">
     <h1 class="text-4xl text-[#141414] py-2 text-center font-bold">Make remote work</h1>
@@ -151,15 +152,16 @@
     </p>
     <button class="bg-[#141414] my-6 text-lg py-3 rounded-2xl px-6 hover:bg-[#fafafa] hover:border-[#141414] transition-colors duration-200 border-[#fafafa] border-2 hover:text-[#141414] text-[#fafafa]">Learn more</button>
     <div class="flex gap-6  w-full mx-auto mt-10 mb-12">
-      <img class="w-1/6 h-full mx-auto" src="client-databiz.svg">
-      <img class="w-1/6 h-full mx-auto"  src="client-audiophile.svg">
-      <img class="w-1/6 h-full mx-auto"  src="client-meet.svg">
-      <img class="w-1/6 h-full mx-auto"  src="client-maker.svg">
+      <img class="w-1/6 h-full mx-auto" alt="databiz" src="client-databiz.svg">
+      <img class="w-1/6 h-full mx-auto" alt="audiophile" src="client-audiophile.svg">
+      <img class="w-1/6 h-full mx-auto" alt="meet"  src="client-meet.svg">
+      <img class="w-1/6 h-full mx-auto" alt="maker" src="client-maker.svg">
     </div>
     </div>
     </div>
   </div>
 </div>
 </div>
+</main>
 </body>
 </html>
